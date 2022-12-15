@@ -1,0 +1,29 @@
+#Nike{
+    width: 100%;
+}
+
+#one{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0px;
+    left:100px;
+    z-index: 0;
+}
+
+#footer{
+    display:block;
+    background-color:grey;
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    
+}
+
+#footer img{
+    margin: 25px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}

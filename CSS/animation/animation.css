@@ -1,0 +1,14 @@
+#jey {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-delay: 2s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes example {
+    0%{top: 0px;}
+    100% {top: 200px;}
+  }

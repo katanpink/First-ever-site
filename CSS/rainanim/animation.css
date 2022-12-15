@@ -1,0 +1,26 @@
+div {
+    position:absolute;
+    width: 100%;
+    height: 900px;
+    background-image: url('./clouds-g3b4022f30_1920.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+section {
+    position:relative;
+    background-image: url('./rain\ smear.png');
+    width: 100%;
+    height: 3900px;
+    background-repeat: repeat;
+    animation-name: raining;
+    animation-duration: 3s;  
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+@keyframes raining {
+    0%{bottom: 0px}
+    100%{bottom: 3000px}
+}
